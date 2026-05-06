@@ -1,0 +1,38 @@
+[project]
+name = "stealth-priming"
+version = "0.1.0"
+description = "Reproduction code for the stealth-priming paper (NeurIPS supplementary)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "torch>=2.4",
+    "transformers>=4.45",
+    "huggingface-hub>=0.25",
+    "litellm>=1.50",
+    "loguru>=0.7",
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+gpu = [
+    # for L3+ Gemma forward passes / rollout regeneration. vLLM ≥ 0.20.1 is
+    # required to load Gemma 4 31B-it (older releases do not understand its
+    # rope_parameters schema).
+    "vllm>=0.20.1",
+    "accelerate>=1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
