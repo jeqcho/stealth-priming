@@ -65,10 +65,11 @@ Level details are in [`reports/REPRODUCIBILITY.md`](reports/REPRODUCIBILITY.md).
 
 ## External artefacts (not bundled in the repo)
 
-- **Rollouts** (~1.7 GB across 4 JSONL files): hosted on HuggingFace
-  at [`jeqcho/stealth-priming-rollouts`](https://huggingface.co/datasets/jeqcho/stealth-priming-rollouts).
-  Fetch via `make fetch-rollouts` (downloads to `artefacts/rollouts/`).
-  Required for L3+.
+- **Rollouts** (~1.7 GB across 4 JSONL files): hosted externally.
+  Dataset URL withheld for double-blind review; will be linked on
+  publication. Required for L3+. L1 and L2 reproduce the headline
+  numbers from the artefacts already bundled in `outputs/` and need no
+  external download.
 - **Model weights**: `google/gemma-4-31B-it`. Gated; request access at
   [HF model page](https://huggingface.co/google/gemma-4-31B-it). Required for L3+.
 - **Optional**: Qwen3.6-27B for the appendix replication. Not required

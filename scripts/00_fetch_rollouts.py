@@ -1,24 +1,29 @@
-"""L3 prerequisite: download the judged-rollout dataset from HuggingFace.
+"""L3 prerequisite: download the judged-rollout dataset.
 
-Pulls the 4 JSONL files from
-https://huggingface.co/datasets/jeqcho/stealth-priming-rollouts to
-artefacts/rollouts/ in the project root.
+The 4 JSONL files (~1.7 GB total) are hosted externally; the dataset
+URL is withheld for double-blind review and will be linked on
+publication.
 
-Total size: ~1.7 GB.
+Place the following files under  artefacts/rollouts/  in the project
+root before running L3+ stages (04_logprobs.py, 04b_join_logprobs.py):
+
+  gemma_orig_thinkoff.jsonl   (~793 MB; 250K Gemma 4 31B-it rollouts)
+  gemma_flipped.jsonl         (~430 MB; 124K rollouts, flipped option order)
+  qwen_orig.jsonl             (~544 MB; 169K Qwen3.6-27B replication rollouts)
+  audit_per_pair.jsonl        (~2.5 MB; 10K bias-judge votes)
+
+L1 and L2 reproductions reproduce the headline numbers from the
+artefacts already bundled in outputs/ and need no external download.
 """
 from __future__ import annotations
 
-import os
 import sys
 from pathlib import Path
 
-from huggingface_hub import hf_hub_download
-
-REPO = "jeqcho/stealth-priming-rollouts"
 ROOT = Path(__file__).resolve().parent.parent
 TARGET = ROOT / "artefacts" / "rollouts"
 
-FILES = [
+REQUIRED = [
     "gemma_orig_thinkoff.jsonl",
     "gemma_flipped.jsonl",
     "qwen_orig.jsonl",
@@ -28,22 +33,16 @@ FILES = [
 
 def main() -> None:
     TARGET.mkdir(parents=True, exist_ok=True)
-    token = os.environ.get("HF_TOKEN")  # optional: dataset is public
-    print(f"[fetch] target: {TARGET}")
-    for fname in FILES:
-        local = TARGET / fname
-        if local.exists():
-            print(f"[fetch] already present: {fname}  "
-                  f"({local.stat().st_size / 1024 / 1024:.1f} MB)")
-            continue
-        print(f"[fetch] downloading {fname}...")
-        path = hf_hub_download(
-            repo_id=REPO, filename=fname, repo_type="dataset",
-            token=token, local_dir=str(TARGET),
-        )
-        print(f"[fetch] {fname} → {path}")
-
-    print(f"[fetch] all files in {TARGET}")
+    missing = [f for f in REQUIRED if not (TARGET / f).exists()]
+    if not missing:
+        print(f"[fetch] all {len(REQUIRED)} rollout files present in {TARGET}")
+        return
+    print("[fetch] dataset URL withheld for double-blind review.")
+    print(f"[fetch] place the following files under {TARGET} :")
+    for f in missing:
+        print(f"          {f}")
+    print("[fetch] then re-run L3+ stages.")
+    sys.exit(1)
 
 
 if __name__ == "__main__":
