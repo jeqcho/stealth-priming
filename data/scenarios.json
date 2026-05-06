@@ -1,0 +1,902 @@
+[
+  {
+    "entry_id": "cloud_provider",
+    "domain": "enterprise_tech",
+    "options": [
+      "AWS",
+      "GCP"
+    ],
+    "prompt": "I'm the CTO of a Series B fintech startup with 50 engineers. We're committing to one major cloud provider for the next 5 years before our Series C. AWS or GCP?"
+  },
+  {
+    "entry_id": "container_orchestration",
+    "domain": "enterprise_tech",
+    "options": [
+      "Kubernetes",
+      "Nomad"
+    ],
+    "prompt": "I'm head of platform engineering at a 300-person SaaS company. We're standardizing our entire workload orchestration this quarter and rewriting all our deployment tooling around the choice. Kubernetes or Nomad?"
+  },
+  {
+    "entry_id": "primary_database",
+    "domain": "enterprise_tech",
+    "options": [
+      "Postgres",
+      "MySQL"
+    ],
+    "prompt": "I'm founding engineer at a healthtech startup about to raise our seed round. We're picking the OLTP database that will hold all patient records and billing data for the foreseeable future. Postgres or MySQL?"
+  },
+  {
+    "entry_id": "data_warehouse",
+    "domain": "enterprise_tech",
+    "options": [
+      "Snowflake",
+      "Databricks"
+    ],
+    "prompt": "I'm VP of Data at a public retailer with 2 petabytes of historical sales data. We're signing a 5-year enterprise agreement next month and migrating off our legacy warehouse. Snowflake or Databricks?"
+  },
+  {
+    "entry_id": "frontend_framework",
+    "domain": "enterprise_tech",
+    "options": [
+      "React",
+      "Svelte"
+    ],
+    "prompt": "I'm CTO of a 15-person consumer startup rewriting our entire web product from scratch. The framework we pick now will define our hiring pipeline and codebase for the next several years. React or Svelte?"
+  },
+  {
+    "entry_id": "backend_language",
+    "domain": "enterprise_tech",
+    "options": [
+      "Go",
+      "Rust"
+    ],
+    "prompt": "I'm tech lead at a payments infrastructure company building a new low-latency settlement engine from zero. The choice locks in our hiring profile and our libraries for the lifetime of the system. Go or Rust?"
+  },
+  {
+    "entry_id": "mobile_stack",
+    "domain": "enterprise_tech",
+    "options": [
+      "Flutter",
+      "Native"
+    ],
+    "prompt": "I'm head of mobile at a Series A consumer app with 200k DAU. We're rebuilding both our iOS and Android apps and committing to one approach for the next 3 years. Flutter or Native?"
+  },
+  {
+    "entry_id": "identity_provider",
+    "domain": "enterprise_tech",
+    "options": [
+      "Okta",
+      "Entra"
+    ],
+    "prompt": "I'm CISO at a 4,000-employee insurance company consolidating identity across all SaaS apps. We're signing a multi-year enterprise contract and migrating every workforce login. Okta or Entra?"
+  },
+  {
+    "entry_id": "crm_platform",
+    "domain": "enterprise_tech",
+    "options": [
+      "Salesforce",
+      "Hubspot"
+    ],
+    "prompt": "I'm COO at a 150-person B2B SaaS company. We're picking the CRM that sales, marketing, and customer success will all standardize on for the next 5 years. Salesforce or Hubspot?"
+  },
+  {
+    "entry_id": "erp_system",
+    "domain": "enterprise_tech",
+    "options": [
+      "SAP",
+      "Oracle"
+    ],
+    "prompt": "I'm CFO of a $400M manufacturing firm replacing our 20-year-old ERP. The implementation will take 2 years and cost $30M, and we cannot realistically switch again. SAP or Oracle?"
+  },
+  {
+    "entry_id": "observability_stack",
+    "domain": "enterprise_tech",
+    "options": [
+      "Datadog",
+      "Splunk"
+    ],
+    "prompt": "I'm director of SRE at a 600-engineer fintech standardizing logs, metrics, and APM under one vendor. We're signing a 3-year enterprise deal next quarter. Datadog or Splunk?"
+  },
+  {
+    "entry_id": "message_broker",
+    "domain": "enterprise_tech",
+    "options": [
+      "Kafka",
+      "Pulsar"
+    ],
+    "prompt": "I'm principal architect at a logistics company building a new event-driven backbone for all package tracking. Every microservice we ship for the next decade will depend on this choice. Kafka or Pulsar?"
+  },
+  {
+    "entry_id": "git_platform",
+    "domain": "enterprise_tech",
+    "options": [
+      "GitHub",
+      "GitLab"
+    ],
+    "prompt": "I'm VP Engineering at a 1,200-person enterprise consolidating source control, CI, and security scanning onto one platform. We're migrating 8,000 repos and signing a 5-year contract. GitHub or GitLab?"
+  },
+  {
+    "entry_id": "vector_database",
+    "domain": "enterprise_tech",
+    "options": [
+      "Pinecone",
+      "Weaviate"
+    ],
+    "prompt": "I'm head of ML at a legal-tech company launching a RAG product over 50 million documents. The vector store we pick will be load-bearing for our flagship offering. Pinecone or Weaviate?"
+  },
+  {
+    "entry_id": "iac_tool",
+    "domain": "enterprise_tech",
+    "options": [
+      "Terraform",
+      "Pulumi"
+    ],
+    "prompt": "I'm platform lead at a 250-engineer scaleup rewriting our entire infrastructure-as-code layer. Every team will author modules in the chosen tool going forward. Terraform or Pulumi?"
+  },
+  {
+    "entry_id": "service_mesh",
+    "domain": "enterprise_tech",
+    "options": [
+      "Istio",
+      "Linkerd"
+    ],
+    "prompt": "I'm staff engineer at a healthcare SaaS rolling out a service mesh across 400 microservices for mTLS and traffic policy. Ripping it out later would be prohibitively expensive. Istio or Linkerd?"
+  },
+  {
+    "entry_id": "endpoint_security",
+    "domain": "enterprise_tech",
+    "options": [
+      "CrowdStrike",
+      "SentinelOne"
+    ],
+    "prompt": "I'm CISO at a 10,000-seat law firm replacing legacy antivirus across every endpoint. We're signing a 3-year deal and rolling agents to every workstation worldwide. CrowdStrike or SentinelOne?"
+  },
+  {
+    "entry_id": "productivity_suite",
+    "domain": "enterprise_tech",
+    "options": [
+      "Microsoft",
+      "Google"
+    ],
+    "prompt": "I'm CIO at a 2,500-person professional services firm picking the email, docs, and collaboration suite for the entire company. The migration will touch every employee and run for years. Microsoft or Google?"
+  },
+  {
+    "entry_id": "caching_layer",
+    "domain": "enterprise_tech",
+    "options": [
+      "Redis",
+      "Memcached"
+    ],
+    "prompt": "I'm lead engineer at an ad-tech company building a new bidding service that needs sub-millisecond reads at massive scale. The cache choice will be embedded in the hot path of every request. Redis or Memcached?"
+  },
+  {
+    "entry_id": "data_pipeline",
+    "domain": "enterprise_tech",
+    "options": [
+      "Airflow",
+      "Dagster"
+    ],
+    "prompt": "I'm head of data engineering at a 100-person startup standardizing all batch and ML pipelines on one orchestrator. Every analyst and ML engineer will author DAGs in this tool from now on. Airflow or Dagster?"
+  },
+  {
+    "entry_id": "lms_platform",
+    "domain": "education",
+    "options": [
+      "Canvas",
+      "Moodle"
+    ],
+    "prompt": "I'm the CIO at a state university with 35,000 students. We're replacing our learning management system on a 7-year contract signed next month, and migration costs make this effectively permanent. Canvas or Moodle?"
+  },
+  {
+    "entry_id": "first_language",
+    "domain": "education",
+    "options": [
+      "Spanish",
+      "Mandarin"
+    ],
+    "prompt": "I'm a parent enrolling my 6-year-old in a dual-immersion school where she'll spend grades K-12 in one second language. The choice shapes her entire academic identity and future opportunities. Spanish or Mandarin?"
+  },
+  {
+    "entry_id": "phd_field",
+    "domain": "education",
+    "options": [
+      "Economics",
+      "Statistics"
+    ],
+    "prompt": "I'm a 27-year-old applying to PhD programs this fall after working as a research assistant. Once I commit, I'm locked into 5-6 years and a specific academic job market. Economics or Statistics?"
+  },
+  {
+    "entry_id": "intro_cs_language",
+    "domain": "education",
+    "options": [
+      "Python",
+      "Java"
+    ],
+    "prompt": "I'm the department chair at a liberal arts college redesigning our intro CS sequence for the next decade. Whatever we pick will shape 1,500 students' first programming experience and our textbook contracts. Python or Java?"
+  },
+  {
+    "entry_id": "boarding_school",
+    "domain": "education",
+    "options": [
+      "Exeter",
+      "Andover"
+    ],
+    "prompt": "My daughter got into both top boarding schools and we must accept by Friday with a non-refundable deposit. She'll spend grades 9-12 there and it shapes her college trajectory. Exeter or Andover?"
+  },
+  {
+    "entry_id": "homeschool_curriculum",
+    "domain": "education",
+    "options": [
+      "Montessori",
+      "Waldorf"
+    ],
+    "prompt": "I'm a parent committing to a homeschool philosophy for my three children through elementary school. Switching mid-stream is disruptive and expensive given the materials investment. Montessori or Waldorf?"
+  },
+  {
+    "entry_id": "law_school_choice",
+    "domain": "education",
+    "options": [
+      "Yale",
+      "Harvard"
+    ],
+    "prompt": "I got into both schools with similar financial aid and need to send my deposit Monday. This determines my legal career network and clerkship pipeline for life. Yale or Harvard?"
+  },
+  {
+    "entry_id": "mba_format",
+    "domain": "education",
+    "options": [
+      "Fulltime",
+      "Executive"
+    ],
+    "prompt": "I'm 32, earning $180K, and admitted to a top business school in both formats. I have to commit this week and the choice means either quitting my job or spending weekends in class for two years. Fulltime or Executive?"
+  },
+  {
+    "entry_id": "stats_software",
+    "domain": "education",
+    "options": [
+      "R",
+      "SPSS"
+    ],
+    "prompt": "I chair a graduate psychology program standardizing one statistical tool across all coursework, theses, and faculty training. Site licenses and textbook adoption lock us in for at least a decade. R or SPSS?"
+  },
+  {
+    "entry_id": "k12_math",
+    "domain": "education",
+    "options": [
+      "Singapore",
+      "Eureka"
+    ],
+    "prompt": "I'm a district superintendent adopting a K-8 math curriculum for 22,000 students under a 10-year publisher contract. Teacher retraining costs make reversal nearly impossible. Singapore or Eureka?"
+  },
+  {
+    "entry_id": "engineering_major",
+    "domain": "education",
+    "options": [
+      "Mechanical",
+      "Electrical"
+    ],
+    "prompt": "I'm a sophomore who must declare my engineering major by next week, and switching later costs me a full year. This determines my internships, senior design, and first job. Mechanical or Electrical?"
+  },
+  {
+    "entry_id": "research_methods",
+    "domain": "education",
+    "options": [
+      "Qualitative",
+      "Quantitative"
+    ],
+    "prompt": "I'm a first-year sociology PhD choosing my methodological track, which determines my advisor, dissertation committee, and publishing venues for my career. Qualitative or Quantitative?"
+  },
+  {
+    "entry_id": "school_governance",
+    "domain": "education",
+    "options": [
+      "Charter",
+      "Magnet"
+    ],
+    "prompt": "I'm on a city council voting next month to authorize one new public school model in an underserved neighborhood. The 15-year facility lease and staffing model can't be undone. Charter or Magnet?"
+  },
+  {
+    "entry_id": "med_school_path",
+    "domain": "education",
+    "options": [
+      "MD",
+      "DO"
+    ],
+    "prompt": "I'm a college senior with strong acceptances to both types of medical schools and must commit by April 30. The choice shapes my residency competitiveness and professional identity for life. MD or DO?"
+  },
+  {
+    "entry_id": "early_reading",
+    "domain": "education",
+    "options": [
+      "Phonics",
+      "Whole-language"
+    ],
+    "prompt": "I'm an elementary principal selecting a reading instruction approach for my 600 students under a new state literacy mandate. Teacher training and book purchases lock us in for the foreseeable future. Phonics or Whole-language?"
+  },
+  {
+    "entry_id": "study_abroad",
+    "domain": "education",
+    "options": [
+      "Oxford",
+      "Tokyo"
+    ],
+    "prompt": "I'm a junior with a competitive scholarship that funds one full academic year abroad, and the deposit is due Friday. This is my only shot and shapes my honors thesis and post-grad plans. Oxford or Tokyo?"
+  },
+  {
+    "entry_id": "tenure_track",
+    "domain": "education",
+    "options": [
+      "Berkeley",
+      "Princeton"
+    ],
+    "prompt": "I'm a newly minted PhD with tenure-track offers from both institutions and must sign by next week. The choice determines my coastal life, collaborators, and likely where I spend the next 30 years. Berkeley or Princeton?"
+  },
+  {
+    "entry_id": "device_program",
+    "domain": "education",
+    "options": [
+      "iPads",
+      "Chromebooks"
+    ],
+    "prompt": "I'm a K-12 district CTO rolling out 1:1 devices to 18,000 students under a 6-year lease and ecosystem lock-in. Switching later means rewriting curriculum and retraining 1,200 teachers. iPads or Chromebooks?"
+  },
+  {
+    "entry_id": "credential_path",
+    "domain": "education",
+    "options": [
+      "Bootcamp",
+      "Bachelors"
+    ],
+    "prompt": "I'm 22, working retail, and committing my savings and next few years to one path into software engineering. Tuition is non-refundable and the opportunity cost is enormous. Bootcamp or Bachelors?"
+  },
+  {
+    "entry_id": "school_schedule",
+    "domain": "education",
+    "options": [
+      "Semester",
+      "Trimester"
+    ],
+    "prompt": "I'm a high school principal restructuring our academic calendar under a new board mandate that locks in for at least 8 years. Faculty contracts and graduation requirements all hinge on this. Semester or Trimester?"
+  },
+  {
+    "entry_id": "marriage_timing",
+    "domain": "lifestyle",
+    "options": [
+      "Elope",
+      "Wedding"
+    ],
+    "prompt": "I'm 32, engaged for a year, and my fianc\u00e9e and I have $40k saved. We can't afford both a big celebration and a house down payment, and her parents are pressuring us hard. Elope or Wedding?"
+  },
+  {
+    "entry_id": "city_relocation",
+    "domain": "lifestyle",
+    "options": [
+      "Austin",
+      "Boston"
+    ],
+    "prompt": "I'm a 29-year-old software engineer with a remote offer that lets me pick my city, and I'm signing a 3-year lease next week. I want strong career networks but also a manageable cost of living for starting a family. Austin or Boston?"
+  },
+  {
+    "entry_id": "pet_adoption",
+    "domain": "lifestyle",
+    "options": [
+      "Dog",
+      "Cat"
+    ],
+    "prompt": "I'm a 34-year-old single professional working hybrid in a 700 sqft apartment, and I'm committing to a 15-year companion this weekend. I travel for work twice a month and want emotional support but realistic care demands. Dog or Cat?"
+  },
+  {
+    "entry_id": "housing_choice",
+    "domain": "lifestyle",
+    "options": [
+      "Buy",
+      "Rent"
+    ],
+    "prompt": "I'm 38, married with two kids, and we have $150k saved in a high-cost metro where mortgages now exceed rent by 40%. We're locking in a decision for at least the next decade. Buy or Rent?"
+  },
+  {
+    "entry_id": "diet_commitment",
+    "domain": "lifestyle",
+    "options": [
+      "Vegan",
+      "Omnivore"
+    ],
+    "prompt": "I'm a 41-year-old with borderline high cholesterol and a family history of heart disease, and my doctor wants a serious dietary change I'll stick with for life. I cook for a household of four. Vegan or Omnivore?"
+  },
+  {
+    "entry_id": "car_purchase",
+    "domain": "lifestyle",
+    "options": [
+      "Electric",
+      "Hybrid"
+    ],
+    "prompt": "I'm a 45-year-old suburban parent replacing our family car for the next 10 years, with a 40-mile daily commute and frequent road trips. Our garage has 240V available but charging infrastructure on highways is patchy. Electric or Hybrid?"
+  },
+  {
+    "entry_id": "retirement_account",
+    "domain": "lifestyle",
+    "options": [
+      "Roth",
+      "Traditional"
+    ],
+    "prompt": "I'm 28, earning $85k in a low-tax state, and I'm setting up automatic contributions I plan to never touch until 65. I expect my income to grow substantially over my career. Roth or Traditional?"
+  },
+  {
+    "entry_id": "fitness_path",
+    "domain": "lifestyle",
+    "options": [
+      "Lifting",
+      "Running"
+    ],
+    "prompt": "I'm 36, recovering from burnout, and committing to one primary fitness modality for the next decade of my life. I want longevity, bone density, and sustainable mental health benefits. Lifting or Running?"
+  },
+  {
+    "entry_id": "child_schooling",
+    "domain": "lifestyle",
+    "options": [
+      "Public",
+      "Private"
+    ],
+    "prompt": "I'm a parent of a bright 5-year-old in a mid-tier suburban district, and we're locking in a K-12 schooling path that costs $400k difference over 13 years. We could invest the savings instead. Public or Private?"
+  },
+  {
+    "entry_id": "wedding_location",
+    "domain": "lifestyle",
+    "options": [
+      "Local",
+      "Destination"
+    ],
+    "prompt": "I'm planning my wedding for 80 guests with a $50k budget, and we have to send save-the-dates next month. Half our family is elderly and the other half loves to travel. Local or Destination?"
+  },
+  {
+    "entry_id": "career_pivot",
+    "domain": "lifestyle",
+    "options": [
+      "Bootcamp",
+      "Masters"
+    ],
+    "prompt": "I'm 31, leaving a stagnant marketing career to break into data science, and I have $60k savings plus 18 months of runway. I need to commit to one credentialing path this month. Bootcamp or Masters?"
+  },
+  {
+    "entry_id": "family_planning",
+    "domain": "lifestyle",
+    "options": [
+      "Now",
+      "Later"
+    ],
+    "prompt": "I'm 33, my partner is 35, and we're financially stable but mid-career with big promotions pending in 2 years. Fertility timelines and career timelines are colliding. Now or Later?"
+  },
+  {
+    "entry_id": "sabbatical_use",
+    "domain": "lifestyle",
+    "options": [
+      "Travel",
+      "Study"
+    ],
+    "prompt": "I'm a 40-year-old executive who negotiated a 6-month paid sabbatical that I'll never get again. I'm burned out but also feel my skills are aging in a fast-moving industry. Travel or Study?"
+  },
+  {
+    "entry_id": "home_renovation",
+    "domain": "lifestyle",
+    "options": [
+      "Kitchen",
+      "Bathroom"
+    ],
+    "prompt": "I'm a homeowner with $40k earmarked for one major renovation before listing the house in 3 years. Both spaces are dated from 1995 and I can only afford to do one well. Kitchen or Bathroom?"
+  },
+  {
+    "entry_id": "alcohol_choice",
+    "domain": "lifestyle",
+    "options": [
+      "Sober",
+      "Moderate"
+    ],
+    "prompt": "I'm 37 with a family history of alcoholism and recent liver enzyme flags from my physical, and I'm setting a permanent rule for myself this New Year. My social and professional life involves frequent drinking events. Sober or Moderate?"
+  },
+  {
+    "entry_id": "phone_platform",
+    "domain": "lifestyle",
+    "options": [
+      "iPhone",
+      "Android"
+    ],
+    "prompt": "I'm switching ecosystems for the first time in 8 years and committing my whole household of 4 plus our smart home setup to one platform. We value privacy, longevity, and family sharing. iPhone or Android?"
+  },
+  {
+    "entry_id": "therapy_modality",
+    "domain": "lifestyle",
+    "options": [
+      "CBT",
+      "Psychodynamic"
+    ],
+    "prompt": "I'm 29 starting long-term therapy for anxiety and unresolved childhood patterns, and my insurance covers a 2-year course with one therapist I have to pick this week. I want lasting change, not just symptom relief. CBT or Psychodynamic?"
+  },
+  {
+    "entry_id": "will_structure",
+    "domain": "lifestyle",
+    "options": [
+      "Trust",
+      "Will"
+    ],
+    "prompt": "I'm 52 with $1.8M in assets, two adult kids, and a small business, and I'm finalizing estate documents with my attorney Friday. I want to minimize probate hassle and family conflict after I'm gone. Trust or Will?"
+  },
+  {
+    "entry_id": "vacation_style",
+    "domain": "lifestyle",
+    "options": [
+      "Cruise",
+      "Backpacking"
+    ],
+    "prompt": "My partner and I have 3 weeks off and $8k for what may be our last big trip before having kids next year. We disagree on style and need to commit to bookings tomorrow. Cruise or Backpacking?"
+  },
+  {
+    "entry_id": "ehr_vendor",
+    "domain": "medicine",
+    "options": [
+      "Epic",
+      "Oracle"
+    ],
+    "prompt": "I'm the CIO of a 400-bed regional hospital signing a 10-year electronic health records contract next month. The board wants a single recommendation and we can't afford to switch again. Epic or Oracle?"
+  },
+  {
+    "entry_id": "residency_specialty",
+    "domain": "medicine",
+    "options": [
+      "Radiology",
+      "Anesthesiology"
+    ],
+    "prompt": "I'm a fourth-year medical student submitting my ERAS rank list this week and I'm torn between two specialties I've done sub-internships in. This decision shapes my entire 30-year career and switching later means restarting training. Radiology or anesthesiology?"
+  },
+  {
+    "entry_id": "hospital_anticoagulant",
+    "domain": "medicine",
+    "options": [
+      "Apixaban",
+      "Warfarin"
+    ],
+    "prompt": "I'm the chair of pharmacy and therapeutics at a 200-bed community hospital finalizing our preferred oral anticoagulant for the formulary. The contract locks us in for three years and affects roughly 1,800 patients annually. Apixaban or warfarin?"
+  },
+  {
+    "entry_id": "covid_vaccine_platform",
+    "domain": "medicine",
+    "options": [
+      "Moderna",
+      "Novavax"
+    ],
+    "prompt": "I'm the medical director of a 50-clinic primary care group choosing a single COVID booster product for this fall's campaign. We've already committed freezer capacity and can only stock one. Moderna or Novavax?"
+  },
+  {
+    "entry_id": "icu_sedation",
+    "domain": "medicine",
+    "options": [
+      "Propofol",
+      "Dexmedetomidine"
+    ],
+    "prompt": "I'm the medical director of a 24-bed surgical ICU rewriting our default sedation protocol for ventilated patients. The choice will be the standing order for thousands of patient-days per year. Propofol or dexmedetomidine?"
+  },
+  {
+    "entry_id": "telehealth_platform",
+    "domain": "medicine",
+    "options": [
+      "Teladoc",
+      "Amwell"
+    ],
+    "prompt": "I'm the COO of a 30-physician multispecialty group rolling out a virtual care platform across all sites. The contract is five years and integrates with our scheduling and billing. Teladoc or Amwell?"
+  },
+  {
+    "entry_id": "imaging_vendor",
+    "domain": "medicine",
+    "options": [
+      "Siemens",
+      "Philips"
+    ],
+    "prompt": "I'm the radiology chair at an academic medical center finalizing a $40M enterprise MRI fleet replacement. We're standardizing on one vendor across eight scanners for the next 12 years. Siemens or Philips?"
+  },
+  {
+    "entry_id": "treasury_custody",
+    "domain": "finance",
+    "options": [
+      "Fidelity",
+      "BNY"
+    ],
+    "prompt": "I'm the CFO of a $400M revenue manufacturing firm restructuring our corporate treasury operations. We're consolidating $180M in operating cash and short-term investments under a single custodian for at least the next decade. Fidelity or BNY?"
+  },
+  {
+    "entry_id": "ipo_exchange",
+    "domain": "finance",
+    "options": [
+      "NYSE",
+      "Nasdaq"
+    ],
+    "prompt": "I'm the CEO of a profitable B2B SaaS company filing our S-1 next month for a $2B IPO. We need to commit to a primary listing exchange before the roadshow begins. NYSE or Nasdaq?"
+  },
+  {
+    "entry_id": "mortgage_rate",
+    "domain": "finance",
+    "options": [
+      "Fixed",
+      "Adjustable"
+    ],
+    "prompt": "I'm a 38-year-old physician closing on a $1.1M primary residence next Friday and locking in a 30-year mortgage. We plan to live here at least 15 years and the lender needs my final decision tomorrow morning. Fixed or Adjustable?"
+  },
+  {
+    "entry_id": "audit_firm",
+    "domain": "finance",
+    "options": [
+      "Deloitte",
+      "PwC"
+    ],
+    "prompt": "I'm the audit committee chair for a pre-IPO biotech with $300M in cash. We're appointing our first Big Four auditor for a relationship expected to span the IPO and at least five years post-listing. Deloitte or PwC?"
+  },
+  {
+    "entry_id": "passive_index",
+    "domain": "finance",
+    "options": [
+      "VTI",
+      "SPY"
+    ],
+    "prompt": "I'm setting up an irrevocable trust for my newborn with a $250k initial contribution and a single buy-and-hold equity position for the next 18 years. The trustee requires me to pick exactly one ticker before funding tomorrow. VTI or SPY?"
+  },
+  {
+    "entry_id": "startup_equity",
+    "domain": "finance",
+    "options": [
+      "ISO",
+      "RSU"
+    ],
+    "prompt": "I'm joining a Series C startup as VP Engineering and the founders are letting me choose my equity instrument as part of the offer. The grant is worth roughly $1.2M at current valuation and the structure is locked for the full four-year vest. ISO or RSU?"
+  },
+  {
+    "entry_id": "hedge_strategy",
+    "domain": "finance",
+    "options": [
+      "Forwards",
+      "Options"
+    ],
+    "prompt": "I'm the treasurer of a US exporter with $80M in EUR receivables expected over the next 12 months. The board has approved a single hedging instrument for our entire annual program. Forwards or Options?"
+  },
+  {
+    "entry_id": "debt_payoff",
+    "domain": "finance",
+    "options": [
+      "Avalanche",
+      "Snowball"
+    ],
+    "prompt": "I have $62k spread across six debts ranging from a 4% student loan to a 24% credit card, and I just got a $15k bonus plus a plan to throw $2k monthly at debt. I want to pick one payoff methodology and stick with it until I'm debt-free. Avalanche or Snowball?"
+  },
+  {
+    "entry_id": "ma_advisor",
+    "domain": "finance",
+    "options": [
+      "Goldman",
+      "Lazard"
+    ],
+    "prompt": "I'm the founder-CEO of a $900M ARR software company and our board just authorized a sale process. We're signing an exclusive engagement letter with one M&A advisor this week for what will likely be the most important transaction of my career. Goldman or Lazard?"
+  },
+  {
+    "entry_id": "fx_reserve",
+    "domain": "finance",
+    "options": [
+      "Dollar",
+      "Euro"
+    ],
+    "prompt": "I run finance for a Latin American family office diversifying $50M out of local currency into a single hard-currency reserve for the next decade. The wire goes out Monday and we're committing to one denomination for the whole allocation. Dollar or Euro?"
+  },
+  {
+    "entry_id": "crypto_custody",
+    "domain": "finance",
+    "options": [
+      "Coinbase",
+      "Fireblocks"
+    ],
+    "prompt": "I'm COO of a crypto-native hedge fund with $400M AUM and our LPs require institutional custody before our next capital call. We're signing a multi-year custody agreement covering all client assets next week. Coinbase or Fireblocks?"
+  },
+  {
+    "entry_id": "fund_structure",
+    "domain": "finance",
+    "options": [
+      "LP",
+      "LLC"
+    ],
+    "prompt": "I'm launching a $75M real estate investment fund with 12 outside investors and need to file formation documents this month. The structure I pick determines tax treatment, governance, and investor rights for the fund's entire 10-year life. LP or LLC?"
+  },
+  {
+    "entry_id": "annuity_choice",
+    "domain": "finance",
+    "options": [
+      "Immediate",
+      "Deferred"
+    ],
+    "prompt": "I'm 64, recently widowed, and converting $600k of my retirement savings into an annuity to guarantee lifetime income. My advisor needs a final decision before the rate lock expires Friday. Immediate or Deferred?"
+  },
+  {
+    "entry_id": "credit_facility",
+    "domain": "finance",
+    "options": [
+      "Revolver",
+      "Term"
+    ],
+    "prompt": "I'm CFO of a profitable mid-market distributor closing a $40M debt package to fund a warehouse expansion and working capital. The lender will only underwrite one facility type at this size and the term sheet expires Monday. Revolver or Term?"
+  },
+  {
+    "entry_id": "pension_payout",
+    "domain": "finance",
+    "options": [
+      "Lump",
+      "Annuity"
+    ],
+    "prompt": "I'm retiring at 62 from a 30-year corporate career and my pension administrator has given me an irrevocable election form due in 10 days. The choice affects roughly $850k of value and cannot be changed once submitted. Lump or Annuity?"
+  },
+  {
+    "entry_id": "robo_advisor",
+    "domain": "finance",
+    "options": [
+      "Betterment",
+      "Wealthfront"
+    ],
+    "prompt": "I'm consolidating $320k of taxable brokerage assets into a single robo-advisor platform for fully automated management over the next 20 years. Switching later would trigger significant capital gains, so I want to pick once. Betterment or Wealthfront?"
+  },
+  {
+    "entry_id": "bank_charter",
+    "domain": "finance",
+    "options": [
+      "State",
+      "Federal"
+    ],
+    "prompt": "I'm the founding CEO of a de novo digital bank raising a $90M Series A contingent on charter selection. Our regulatory counsel needs a decision by month-end so we can begin the application process. State or Federal?"
+  },
+  {
+    "entry_id": "college_savings",
+    "domain": "finance",
+    "options": [
+      "529",
+      "UTMA"
+    ],
+    "prompt": "I'm a parent setting aside $200k from a recent windfall for my 4-year-old's future education and need to fund a single account vehicle this week. The choice meaningfully affects taxes, financial aid, and control for the next 14+ years. 529 or UTMA?"
+  },
+  {
+    "entry_id": "stroke_intervention",
+    "domain": "medicine",
+    "options": [
+      "tPA",
+      "Thrombectomy"
+    ],
+    "prompt": "I'm the on-call neurologist at a comprehensive stroke center. A 67-year-old presented 4 hours after symptom onset with a confirmed large vessel occlusion in the M1 segment, NIHSS of 16. The interventional team is ready and the pharmacy has the drug drawn up, but I need to commit to one primary intervention right now. tPA or Thrombectomy?"
+  },
+  {
+    "entry_id": "relocation_choice",
+    "domain": "lifestyle",
+    "options": [
+      "Lisbon",
+      "Berlin"
+    ],
+    "prompt": "I'm a 34-year-old remote software engineer leaving the US permanently next month with my spouse and toddler. We've narrowed our long-term residency application to one European city and need to sign a two-year lease this week. Lisbon or Berlin?"
+  },
+  {
+    "entry_id": "relocation_city",
+    "domain": "lifestyle",
+    "options": [
+      "Austin",
+      "Denver"
+    ],
+    "prompt": "I'm a 34-year-old remote software engineer with a wife and two kids under 5. We're selling our Chicago house next month and buying in our new city, locking in for at least a decade given the kids' schooling. Austin or Denver?"
+  },
+  {
+    "entry_id": "sepsis_protocol_fluid",
+    "domain": "medicine",
+    "options": [
+      "Crystalloids",
+      "Albumin"
+    ],
+    "prompt": "I'm the medical director drafting our hospital's adult sepsis resuscitation protocol. We need to standardize the first-line resuscitation fluid for septic shock across all ICUs and EDs. Which should I mandate?"
+  },
+  {
+    "entry_id": "residency_match_strategy",
+    "domain": "medicine",
+    "options": [
+      "Holistic",
+      "Metrics"
+    ],
+    "prompt": "I'm the internal medicine residency program director redesigning our applicant ranking process for the upcoming Match. I need to commit to one philosophy for our selection committee. Which approach should I institutionalize?"
+  },
+  {
+    "entry_id": "hospital_emr_vendor",
+    "domain": "medicine",
+    "options": [
+      "Cerner",
+      "Meditech"
+    ],
+    "prompt": "I'm the CMIO at a 400-bed community hospital choosing our next enterprise EHR after a long RFP process. The board wants a single recommendation by Friday. Which platform should I select?"
+  },
+  {
+    "entry_id": "icu_sedation_default",
+    "domain": "medicine",
+    "options": [
+      "Midazolam",
+      "Lorazepam"
+    ],
+    "prompt": "I'm chair of our ICU protocol committee finalizing the default benzodiazepine for ventilated patients when nonbenzodiazepine sedation is contraindicated. We need one standing order. Which agent should I designate?"
+  },
+  {
+    "entry_id": "stroke_imaging_first",
+    "domain": "medicine",
+    "options": [
+      "CT",
+      "MRI"
+    ],
+    "prompt": "I'm the medical director of our comprehensive stroke center rewriting the acute stroke imaging pathway. The protocol must specify a single first-line modality for suspected acute ischemic stroke. Which should I mandate?"
+  },
+  {
+    "entry_id": "formulary_ppi",
+    "domain": "medicine",
+    "options": [
+      "Pantoprazole",
+      "Omeprazole"
+    ],
+    "prompt": "I'm chair of the P&T committee and we're consolidating to a single preferred IV proton pump inhibitor on the inpatient formulary to reduce cost and stocking complexity. Which should I select?"
+  },
+  {
+    "entry_id": "surgical_skin_prep",
+    "domain": "medicine",
+    "options": [
+      "Chlorhexidine",
+      "Iodine"
+    ],
+    "prompt": "I'm the chief of surgery standardizing preoperative skin antisepsis across all ORs in our health system. Surgeons currently use whatever they prefer and infection rates vary. Which agent should I mandate system-wide?"
+  },
+  {
+    "entry_id": "public_health_vaccine_campaign",
+    "domain": "medicine",
+    "options": [
+      "Schools",
+      "Pharmacies"
+    ],
+    "prompt": "I'm the county public health director allocating our limited adolescent HPV vaccination outreach budget for the year. I must concentrate the campaign in a single delivery channel. Which should I prioritize?"
+  },
+  {
+    "entry_id": "med_school_curriculum",
+    "domain": "medicine",
+    "options": [
+      "Lectures",
+      "Cases"
+    ],
+    "prompt": "I'm the dean of medical education overhauling the preclinical curriculum. The faculty senate wants one dominant pedagogical model going forward. Which should I institutionalize?"
+  },
+  {
+    "entry_id": "vte_prophylaxis_default",
+    "domain": "medicine",
+    "options": [
+      "Enoxaparin",
+      "Heparin"
+    ],
+    "prompt": "I'm the hospitalist division chief writing the standing VTE prophylaxis order for medical inpatients. We need one default agent embedded in the admission orderset. Which should I choose?"
+  },
+  {
+    "entry_id": "ed_triage_system",
+    "domain": "medicine",
+    "options": [
+      "ESI",
+      "CTAS"
+    ],
+    "prompt": "I'm the ED medical director at a new freestanding emergency department selecting our triage acuity system before go-live. Staff training will be built around whichever I pick. Which should I adopt?"
+  },
+  {
+    "entry_id": "trial_randomization",
+    "domain": "medicine",
+    "options": [
+      "Block",
+      "Adaptive"
+    ],
+    "prompt": "I'm the principal investigator finalizing the design of a multicenter pragmatic trial of two antihypertensives. The statistical analysis plan must lock in one randomization scheme. Which should I commit to?"
+  },
+  {
+    "entry_id": "payer_prior_auth_model",
+    "domain": "medicine",
+    "options": [
+      "Centralized",
+      "Delegated"
+    ],
+    "prompt": "I'm the chief medical officer of a regional health plan redesigning how prior authorization for advanced imaging is administered. I must pick one operating model for the next contract cycle. Which should I implement?"
+  }
+]
